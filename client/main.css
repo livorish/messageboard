@@ -1,0 +1,25 @@
+/* CSS declarations go here */
+body{
+    font-family: 'arial'
+}
+
+.header{
+    text-align: center;
+}
+
+#messageForm{
+    padding: 5px;
+    background: #596595;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.message{
+    padding: 8px;
+    background: #f4f4f4;
+    margin-bottom: 5px;
+}
+
+.message span{
+    color: rgb(74, 99, 207);
+}

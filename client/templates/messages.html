@@ -1,0 +1,9 @@
+<template name="messages">
+    <div>
+        {{#each messages}}
+        <div class="message">
+            <strong>{{username}}</strong> : {{text}} <span>{{formatDame createdAt}}</span>
+        </div>
+        {{/each}}
+    </div>
+</template>
